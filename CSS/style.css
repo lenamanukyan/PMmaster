@@ -1,0 +1,260 @@
+.navbar {
+    background: #484444;
+}
+.masthead {
+	height: 100vh;
+	min-height: 500px;
+	background-image: url('../img/banner.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.masthead h1 {
+    font-style: italic;
+    font-weight: 600!important;
+    
+}
+
+/******Info*******/
+
+.info {
+	padding-top: 70px;
+}
+
+.info h3 {
+	text-align: center;
+	
+}
+.info ul {
+	font-style: italic;
+	font-size: 20px;
+}
+.info  span {
+	color: brown;
+	border-bottom: 1px solid brown;
+}
+.info p {
+	text-align: center;
+	font-style: italic;
+	font-size: 20px;
+}
+
+/* ****Style****** */
+.style .row {
+	border-top: 2px solid black;
+	padding: 50px 0;
+}
+.style h4 {
+	text-align: center;
+	color: brown;
+	font-style: italic;
+	margin: 30px 0;
+}
+.style img {
+	width: 100%;
+	max-height: 300px;
+}
+/* **** Slider ***** */
+.sliderr {
+	padding-top: 50px;
+	border-top: 1px solid black;
+}
+.sliderr h3 {
+	text-align: center;
+	color: brown;
+}
+.slider {
+    position: relative;
+    padding: 0 30px;
+    max-width: 1200px;
+}
+
+.slide-container {
+    box-sizing: border-box;
+    padding: 25px;
+    position: relative;
+}
+.slide-container img {
+    opacity: 0.75;
+}
+.slide-container img:focus {
+   height: 500px;
+   max-width: 100%;
+}
+
+.slick-center .slide-container {
+    padding: 25px 0;
+    z-index: 1000;
+}
+.slick-center .slide-container img {
+    box-shadow: 0px 4px 12px #666;
+    -webkit-transition: -webkit-transform 300ms ease-in;
+    transition: -webkit-transform 300ms ease-in;
+    transition: transform 300ms ease-in;
+    transition: transform 300ms ease-in, -webkit-transform 300ms ease-in;
+    -webkit-transform: scale(1.25);
+    transform: scale(1.25);
+    opacity: 1;
+    margin-top: -10px;
+}
+
+.slick-arrow {
+    background-color: transparent;
+    border: 0;
+    position: absolute;
+    top: calc(50% - 25px);
+    height: 0;
+    overflow: hidden;
+    padding: 50px 0 0 0;
+    width: 20px;
+}
+.slick-arrow::before {
+    content: '';
+    position: absolute;
+    top: calc(50% - 1rem);
+    font-size: 2rem;
+    line-height: 1;
+    display: block;
+}
+.slick-arrow.slick-next {
+    right: 0;
+}
+.slick-arrow.slick-next::before {
+    content: '>';
+    right: 0;
+}
+.slick-arrow.slick-prev {
+    left: 0;
+}
+.slick-arrow.slick-prev::before {
+    content: '<';
+}
+
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.slick-list.dragging {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    padding: 50px 0;
+}
+
+.slick-track:before,
+.slick-track:after {
+    display: table;
+    content: '';
+}
+
+.slick-track:after {
+    clear: both;
+}
+
+.slick-loading .slick-track {
+    visibility: hidden;
+}
+
+.slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+
+.slick-slide img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.slick-slide.slick-loading img {
+    display: none;
+}
+
+.slick-slide.dragging img {
+    pointer-events: none;
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+}
+
+.slick-loading .slick-slide {
+    visibility: hidden;
+}
+
+.slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+
+.slick-arrow.slick-hidden {
+    display: none;
+}
+/* ***Why**** */
+.why {
+    padding: 80px 0;
+    background: lightgoldenrodyellow;
+    border-top: 1px solid black;
+   
+}
+.why h3 {
+    text-align: center;
+    color: brown;
+    margin: 25px 0;
+}
+.why img {
+    width: 170px;
+}
+.why p {
+    text-align: center;
+    font-style: italic;
+    margin-top: 25px;
+}
+/* ***Footer**** */
+.footer {
+    padding: 25px 0;
+    background: #484444;
+}
+.footer img {
+    width: 200px;
+}
+.text1 {
+    color: #75808d;
+}
+.text1 span {
+    display: table-cell; 
+    vertical-align: middle;
+}
+.footer .text1:hover {
+    color: brown!important;
+    text-decoration: none;
+}
+.footer a .fa:hover {
+    color:brown!important;
+}
+.text {
+    font-style: italic;
+    font-size: 35px;
+    color: #75808d;
+    text-shadow: 0 4px 2px rgb(78, 27, 27) ;
+    
+}
